@@ -13,6 +13,7 @@ fmt.Print("12")
 
 ## 2. fmt.Printf
 Using fmt.Println() and fmt.Print() we have the ability to concatenate strings, i.e. combine different strings into a single string.
+
 ```
 guess := "C"
 fmt.Println("Is", guess, "your final answer?")
@@ -32,6 +33,7 @@ Ex:
 -  %T prints out the type of the  argument
 - %d is for integers
 - %f is for floats
+- %v is for string
 
 ```
 specialNum := 42

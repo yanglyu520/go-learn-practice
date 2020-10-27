@@ -53,6 +53,7 @@ fmt.Println("We have jackets in all sizes.")
 default:
 fmt.Println("Sorry, we don't carry that")
 }
+
 // Prints: We have sweaters in S, M, L, and XL.
 ```
 1. The switch keyword initiates the statement and is followed by a value. In the example, the value after switch is compared to the value after each case, until there is a match.
@@ -73,7 +74,7 @@ fmt.Println(product, " is greater than 60")
 
 ```go
 switch season := "summer" ; season {
-case "summer"
+case "summer":
 fmt.Println("Go out and enjoy the sun!")
 }
 ```
